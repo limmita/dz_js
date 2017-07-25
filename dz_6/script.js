@@ -16,25 +16,25 @@ reverse = reverse.join('. ') + '.';
 console.log(reverse);
 
 function capitaliseFirstLetter(string){
-    return string.charAt(0).toUpperCase() + string.slice(1);
+	return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 function sortBubble(data) {
 	var tmp;
-    for (var i = data.length - 1; i > 0; i--) {  
-        var counter=0;
-        for (var j = 0; j < i; j++) {
-            if (data[j].length < data[j+1].length) {
-                tmp = data[j];
-                data[j] = data[j+1];
-                data[j+1] = tmp;
-                counter++;
-            }
-        }  
-        if(counter==0){
-          break;
-        } 
-    }
+	for (var i = data.length - 1; i > 0; i--) {  
+		var counter=0;
+		for (var j = 0; j < i; j++) {
+			if (data[j].length < data[j+1].length) {
+				tmp = data[j];
+				data[j] = data[j+1];
+				data[j+1] = tmp;
+				counter++;
+			}
+		}  
+		if(counter==0){
+		  break;
+		} 
+	}
   return data.join(' ');
  };
 

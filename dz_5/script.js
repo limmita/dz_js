@@ -22,3 +22,4 @@ function geometry(q) {
 	return summa;
 }
 
+
