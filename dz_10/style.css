@@ -1,0 +1,13 @@
+.onecol{
+	width: 60px;
+	float: left;
+}
+.twocol{
+	margin: 20px;
+}
+input[type="checkbox"]{
+	margin-left: 10px;
+}
+#btn{
+	margin-left: 225px;
+}
